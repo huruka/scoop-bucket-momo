@@ -6,17 +6,16 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/rapiz1/rathole/releases/download/v0.4.1/rathole-x86_64-pc-windows-msvc.zip",
-            "hash": "7ff5da235f8932a5e66bcf40bdf79947ebe731f8802af62a10684fed4e4e0388",
-            "extract_dir": "rathole-x86_64-pc-windows-msvc"
+            "hash": "7ff5da235f8932a5e66bcf40bdf79947ebe731f8802af62a10684fed4e4e0388"
         }
     },
     "bin": "rathole.exe",
+    "persist": "config.toml",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rapiz1/rathole/releases/download/v$version/rathole-x86_64-pc-windows-msvc.zip",
-                "extract_dir": "rathole-x86_64-pc-windows-msvc"
+                "url": "https://github.com/rapiz1/rathole/releases/download/v$version/rathole-x86_64-pc-windows-msvc.zip"
             }
         }
     }
