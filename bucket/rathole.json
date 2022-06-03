@@ -10,6 +10,7 @@
         }
     },
     "bin": "rathole.exe",
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\config.toml\")) { New-Item \"$dir\\config.toml\" | Out-Null }",
     "persist": "config.toml",
     "checkver": "github",
     "autoupdate": {
