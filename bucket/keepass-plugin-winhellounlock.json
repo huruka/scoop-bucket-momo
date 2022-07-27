@@ -1,11 +1,11 @@
 {
-    "version": "1.6",
+    "version": "1.6.1",
     "description": "KeePass 2 plugin to automatically unlock databases with Windows Hello.",
     "homepage": "https://github.com/Angelelz/WinHelloUnlock",
     "license": "MIT",
     "depends": "extras/keepass",
-    "url": "https://github.com/Angelelz/WinHelloUnlock/releases/download/v1.6/WinHelloUnlock.dll",
-    "hash": "6170a773ecb9c58817b3f4072c3a2c55479100b277b8a4ad506247ae1a2ed381",
+    "url": "https://github.com/Angelelz/WinHelloUnlock/releases/download/v1.6.1/WinHelloUnlock.dll",
+    "hash": "cfd33b58f496aebd6d812f194d08e42fa5429539801af27aa013fdb2ad8f4bb9",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Angelelz/WinHelloUnlock/releases/download/v$version/WinHelloUnlock.dll"
