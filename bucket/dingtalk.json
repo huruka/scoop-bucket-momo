@@ -1,0 +1,26 @@
+{
+    "homepage": "https://www.dingtalk.com/",
+    "description": "An all-in-one free communication and collaboration platform",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://tms.dingtalk.com/markets/dingtalk/service-terms-zh"
+    },
+    "version": "6.3.25.2149101",
+    "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v6.3.25.2149101.exe#/dl.7z",
+    "hash": "5a16e469f36f0bd60a65508f036b47530c6f631c823468def1b686533d7c4edb",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "shortcuts": [
+        [
+            "DingtalkLauncher.exe",
+            "DingTalk"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.dingtalk.com/wow/dingtalk/act/en-download",
+        "regex": "win_installer/Release/DingTalk_v([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v$version.exe#/dl.7z"
+    },
+    "notes": "We don't persist your DingTalk data, they are still storaged in '%APPDATA%\\DingTalk'."
+}
