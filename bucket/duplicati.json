@@ -1,0 +1,21 @@
+{
+    "version": "2.0.6.3",
+    "description": "Store securely encrypted backups on cloud storage services!",
+    "homepage": "https://www.duplicati.com/",
+    "license": "GNU LGPL",
+    "url": "https://updates.duplicati.com/beta/duplicati-2.0.6.3_beta_2021-06-17.zip",
+    "hash": "85a45ce43e0f8050324854f64f130e8967d881c73c3e120cf81028c1f110cb50",
+    "extract_dir": "MLO2Syncer",
+    "bin": [
+        [
+            "Duplicati.CommandLine.exe",
+            "duplicati"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Duplicati.GUI.TrayIcon.exe",
+            "Duplicati"
+        ]
+    ]
+}
