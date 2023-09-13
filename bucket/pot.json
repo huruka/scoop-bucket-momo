@@ -22,7 +22,6 @@
         "Remove-Item \"$dir\\_EXTRACTED\" -Force -Recurse",
         "Remove-Item \"$dir\" -Include 'Uninstall.exe', '$PLUGINSDIR' -Recurse"
     ],
-    "persist": "config.toml",
     "checkver": {
         "github": "https://github.com/pot-app/pot-desktop"
     },
