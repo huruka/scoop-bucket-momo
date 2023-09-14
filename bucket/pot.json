@@ -1,7 +1,7 @@
 {
     "version": "2.2.1",
-    "description": "一个跨平台的划词翻译软件 | A cross-platform translation software",
-    "homepage": "https://pot.pylogmon.com",
+    "description": "一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognize",
+    "homepage": "https://pot-app.com",
     "license": "GPL-3.0-or-later",
     "notes": [
         "Scoop doesn't persist your pot data, by default they are stored in: ",
