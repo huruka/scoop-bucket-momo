@@ -1,5 +1,5 @@
 {
-    "version": "2.5.0",
+    "version": "2.5.1",
     "description": "一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognize",
     "homepage": "https://pot-app.com",
     "license": "GPL-3.0-or-later",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.5.0/pot_2.5.0_x64-setup.nsis.zip",
-            "hash": "b1302371c365cb80ef52b22836cf27e9326ce28c48bb2b1616964ef8a3847c48"
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.5.1/pot_2.5.1_x64-setup.nsis.zip",
+            "hash": "a20e81a12b00cbf6b76835aecd560063fe8bb6369b090d89a4db48b927ba7a09"
         },
         "32bit": {
-            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.5.0/pot_2.5.0_x86-setup.nsis.zip",
-            "hash": "2ba3262414db2606a72adfeabfaa165a606e3621bf680e505f5f3366a4440d37"
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.5.1/pot_2.5.1_x86-setup.nsis.zip",
+            "hash": "1d0fa0948662f4544901f7cc20587b9cf790b25330c146b2e7bb77fd4f8f724a"
         }
     },
     "shortcuts": [
