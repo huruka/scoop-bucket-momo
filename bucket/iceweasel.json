@@ -1,12 +1,12 @@
 {
-    "version": "115.0.3",
+    "version": "121.0.1",
     "description": "Iceweasel web browser, an independent browser derived from Firefox/Mozilla community code.",
     "homepage": "https://sourceforge.net/projects/libportable",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/115.x/x86_64/Iceweasel-v115.0.3.en_US_win64_clang_pgo.7z",
-            "hash": "sha1:3782c02b9e59b238c0741964817feb0624258af0",
+            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/121.x/x86_64/Iceweasel-v121.0.1.en_US_win64_clang_pgo.7z",
+            "hash": "sha1:ac540b58fcb3cc5e6881da8297508457c12eb4b8",
             "extract_dir": "Iceweasel_x64"
         }
     },
